@@ -9,7 +9,8 @@ import ContactIcons from '../components/Contact/ContactIcons';
 // uses babel to load contents of file
 const markdown = raw('../data/about.md');
 
-// const count = markdown.split(/\s+/)
+// const count = markdown
+//   .split(/\s+/)
 //   .map((s) => s.replace(/\W/g, ''))
 //   .filter((s) => s.length).length;
 
@@ -17,14 +18,13 @@ const markdown = raw('../data/about.md');
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const About = () => (
-  <Main
-    title="About"
-    description="About me"
-  >
+  <Main title="About" description="About me">
     <article className="post markdown" id="about">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
+          <h2 data-testid="heading">
+            <Link to="/about">About Me</Link>
+          </h2>
           <ContactIcons />
           {/* <p>(in about {count} words)</p> */}
         </div>
