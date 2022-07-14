@@ -31,7 +31,7 @@ const SideBar = () => (
     </section>
 
     <section id="footer">
-      <p className="copyright">&copy; Anant Mishra <Link to="/">amishra.com</Link>.</p>
+      <p className="copyright">&copy; <Link to="/">Anant Mishra</Link>.</p>
     </section>
   </section>
 );
