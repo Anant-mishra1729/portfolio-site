@@ -24,7 +24,7 @@ const data = [
     title: 'Image color transfer',
     subtitle: 'Transferring color texture from one image to another.',
     link: 'https://github.com/Anant-mishra1729/Image-color-transfer',
-    image: '/images/projects/image-color-transfer.jpg',
+    image: '/images/projects/Image_color_transfer.jpg',
     date: '2015-06-28',
     desc:
       'Implementation of algorithm for tranferring colors between two images. '
