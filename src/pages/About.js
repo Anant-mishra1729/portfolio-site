@@ -23,10 +23,10 @@ const About = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <Link to="/about">About Me</Link>
+            <h2>About Me</h2>
           </h2>
-          <ContactIcons />
           {/* <p>(in about {count} words)</p> */}
+          <ContactIcons />
         </div>
       </header>
       <ReactMarkdown

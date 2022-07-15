@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
@@ -23,19 +23,22 @@ const sections = [
 ];
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description="Anant Mishra's Resume."
-  >
+  <Main title="Resume" description="Anant Mishra's Resume.">
     <article className="post" id="resume">
       <div>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading">
+            <h2>Resume</h2>
+          </h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}<hr /></a>
-              </h4>))}
+                <a href={`#${sec.toLowerCase()}`}>
+                  {sec}
+                  <hr />
+                </a>
+              </h4>
+            ))}
           </div>
         </div>
       </div>
@@ -44,7 +47,6 @@ const Resume = () => (
       <Skills skills={skills} categories={categories} />
       {/* <Courses data={courses} /> */}
       {/* <References /> */}
-
     </article>
   </Main>
 );

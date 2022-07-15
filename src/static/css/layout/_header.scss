@@ -80,6 +80,8 @@ body {
           font-weight:bold;
           letter-spacing: _font(kerning-heading);
           text-transform: uppercase;
+          padding-top: 15px;
+          padding-bottom: 9px;
         }
 		&:hover {
 		  color: #3c3b3b;
@@ -94,10 +96,10 @@ body {
           left: 0;
           background-color: #616060;
           transform: scaleX(0);
-          transition: transform 0.3s ease;
+          transition: transform 0.5s ease;
         }
 		a:hover::before {
-			transform: scaleX(1);
+			transform: scaleX(1.2);
 		  }
 		  
       }
