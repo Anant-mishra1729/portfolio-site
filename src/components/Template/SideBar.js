@@ -24,6 +24,19 @@ const SideBar = () => (
         bachelor&apos;s in Computer Science from{' '}
         <a href="https://www.thapar.edu/">Thapar University, Punjab</a>.
       </p>
+      <ul className="actions">
+        <li>
+          {!window.location.pathname.includes('/resume') ? (
+            <Link to="/resume" className="button">
+              Resume
+            </Link>
+          ) : (
+            <Link to="/projects" className="button">
+              Projects
+            </Link>
+          )}
+        </li>
+      </ul>
     </section>
 
     <section id="footer">
