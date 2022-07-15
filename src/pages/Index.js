@@ -15,12 +15,12 @@ const Index = () => (
           <p>
             {' '}
             This is my online portfolio. I&apos;m currently living in Vrindavan
-            India, a place like no other. I&apos;m interested in AI and Data
+            India... a place like no other. I&apos;m interested in AI and Data
             Science, feel free to contact me.
           </p>
-          <ContactIcons />
         </div>
       </header>
+      <ContactIcons />
       <p>
         Please feel free to read more <Link to="/about">about me</Link>, or you
         can check out my <Link to="/resume">resume</Link>,{' '}

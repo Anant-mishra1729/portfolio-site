@@ -51,10 +51,11 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent) !important;
+			color: #3b3a3a !important;
+			font-weight: bold;
 
 			&:before {
-				color: _palette(accent) !important;
+				color: #3b3a3a !important;
 			}
 		}
 	}

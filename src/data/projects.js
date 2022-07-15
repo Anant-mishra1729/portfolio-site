@@ -33,12 +33,12 @@ const data = [
   {
     title: 'Hash-hunt',
     subtitle: 'Hashing based reverse image search engine',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/hash_hunt.jpg',
     date: 'June 2020',
     desc:
       'Hashing based reverse image search engine, '
       + 'Images are stored in database with their computed hash values. '
-      + 'Robust image searching done in O(log n) time complexity ',
+      + 'Fast image searching done in O(log n) time complexity ',
   },
   {
     title: 'Cat Detector',
