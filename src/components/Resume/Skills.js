@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
+import Techstack from '../Template/Techstack';
 
 const handleProps = ({ categories, skills }) => ({
   buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
@@ -72,11 +73,12 @@ class Skills extends Component {
       <div className="skills">
         <div className="link-to" id="skills" />
         <div className="title">
-          <h3>Skills</h3>
+          <h3>Technolgy and Skills</h3>
           <hr />
           <p>Note: I think these sections are silly, but everyone seems to have one.
             Here is a *mostly* honest overview of my skills.
           </p>
+          <Techstack />
         </div>
         <div className="skill-button-container">
           {this.getButtons()}
