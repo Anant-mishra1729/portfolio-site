@@ -10,7 +10,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading">
-            <h1>Hey There! </h1>
+            <h1>Hey There! I&apos;m Anant</h1>
           </h2>
           <p>
             {' '}
@@ -18,7 +18,6 @@ const Index = () => (
             India... a place like no other. I&apos;m interested in AI and Data
             Science, feel free to contact me.
           </p>
-          <ContactIcons />
         </div>
       </header>
       <p>
@@ -28,10 +27,7 @@ const Index = () => (
         <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
-      <p>
-        Source available{' '}
-        <a href="https://github.com/Anant-mishra1729/portfolio-site">here</a>.
-      </p>
+      <ContactIcons />
     </article>
   </Main>
 );

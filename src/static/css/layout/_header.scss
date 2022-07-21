@@ -96,7 +96,7 @@ body {
           left: 0;
           background-color: #616060;
           transform: scaleX(0);
-          transition: transform 0.5s ease;
+          transition: transform 0.3s ease;
         }
 		a:hover::before {
 			transform: scaleX(1.2);
