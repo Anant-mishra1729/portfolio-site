@@ -34,6 +34,7 @@ const data = [
     title: 'Hash-hunt',
     subtitle: 'Hashing based reverse image search engine',
     image: '/images/projects/hash_hunt.jpg',
+    link: 'https://github.com/Anant-mishra1729/Hash-hunt',
     date: 'June 2020',
     desc:
       'Hashing based reverse image search engine, '
@@ -44,6 +45,7 @@ const data = [
     title: 'Document scanner',
     subtitle: 'A Document scanner based on Computer Vision',
     image: '/images/projects/document.jpg',
+    link: 'https://github.com/Anant-mishra1729/Document-scanner',
     date: '2015-05-15',
     desc:
       'A Document scanner based on Computer Vision using OpenCV with automatic document capturing capability using contour detection. ',

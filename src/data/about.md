@@ -7,8 +7,8 @@ I am Anant Mishra, student of [Thapar University](https://www.thapar.edu/) Punja
 
 - I'm from Vrindavan, a town in Uttar Pradesh India.
 - I completed my schooling from PDDSVM Vrindavan in 2020 under Central Board of Secondary Education.
-- In my childhood, I grew an interest towards **Space and Programming** which soon turned into my hobby.
-- My hobbies are [Stargazing]("https://en.wikipedia.org/wiki/Amateur_astronomy") and playing Chess.
+- In my childhood, I grew an interest towards cosmos which soon turned into my hobby.
+- My hobbies include Stargazing and playing Chess.
 
 # An excerpt from my diary...
 

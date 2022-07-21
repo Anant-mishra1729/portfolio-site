@@ -4,15 +4,14 @@ import ReactMarkdown from 'react-markdown';
 import raw from 'raw.macro';
 
 import Main from '../layouts/Main';
-import ContactIcons from '../components/Contact/ContactIcons';
 
 // uses babel to load contents of file
 const markdown = raw('../data/about.md');
 
-// const count = markdown
-//   .split(/\s+/)
-//   .map((s) => s.replace(/\W/g, ''))
-//   .filter((s) => s.length).length;
+const count = markdown
+  .split(/\s+/)
+  .map((s) => s.replace(/\W/g, ''))
+  .filter((s) => s.length).length;
 
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
@@ -22,11 +21,10 @@ const About = () => (
     <article className="post markdown" id="about">
       <header>
         <div className="title">
-          <h2 data-testid="heading">
+          <h3 data-testid="heading">
             <h2>About Me</h2>
-          </h2>
-          {/* <p>(in about {count} words)</p> */}
-          <ContactIcons />
+          </h3>
+          <p>(in about {count} words)</p>
         </div>
       </header>
       <ReactMarkdown
